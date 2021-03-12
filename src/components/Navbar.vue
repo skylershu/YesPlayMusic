@@ -45,12 +45,6 @@
       >
     </div>
     <div class="right-part">
-      <a
-        href="https://github.com/qier222/YesPlayMusic"
-        target="blank"
-        v-if="settings.showGithubIcon !== false"
-        ><svg-icon icon-class="github" class="github"
-      /></a>
       <div class="search-box">
         <div class="container" :class="{ active: inputFocus }">
           <svg-icon icon-class="search" />
